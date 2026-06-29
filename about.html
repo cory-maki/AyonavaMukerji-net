@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>About Shupi Mukerji | Construction Leader &amp; Formwork Expert | Queensland</title>
+<meta name="description" content="Learn about Shupi Mukerji — Queensland formwork leader, Omega Structures co-founder, contributor to the Formwork Code of Practice 2016, and community sport champion. Over 20 years building Australia's construction industry."/>
+<link rel="canonical" href="https://AyonavaMukerji.netlify.app/about.html"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="assets/style.css"/>
+
+<!-- JSON-LD Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://AyonavaMukerji.netlify.app/#person",
+      "name": "Shupi Mukerji",
+      "alternateName": "Ayonava Mukerji",
+      "jobTitle": "Construction Leader & Formwork Expert",
+      "url": "https://AyonavaMukerji.netlify.app/",
+      "image": "https://AyonavaMukerji.netlify.app/images/hero.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Queensland",
+        "addressCountry": "AU"
+      },
+      "description": "Queensland-based formwork industry leader with over two decades of experience, co-founder of Omega Structures, and contributor to the Formwork Code of Practice 2016.",
+      "sameAs": [
+        "https://www.facebook.com/shoop.dogg",
+        "https://www.instagram.com/sm9.amg/",
+        "https://www.pinterest.com/ayonavamukerji/_profile/",
+        "https://soundcloud.com/ayonavamukerji",
+        "https://bio.site/AyonavaMukerji",
+        "https://linktr.ee/ayonavamukerji",
+        "https://issuu.com/ayonavamukerji",
+        "https://my.archdaily.com/us/@ayonava-mukerji",
+        "https://www.goodreads.com/user/show/198355401-ayonava-mukerji",
+        "https://github.com/AyonavaMukerji",
+        "https://www.beatstars.com/ayonavamukerji",
+        "https://huggingface.co/ayonavamukerji",
+        "https://www.tumblr.com/blog/ayonavamukerji",
+        "https://bandcamp.com/ayonavamukerji",
+        "https://vimeo.com/ayonavamukerji",
+        "https://wikialpha.co/wiki/User:Ayonava_Mukerji",
+        "https://www.podbean.com/user-oO5ojqi0purw",
+        "https://www.reddit.com/user/ayonavamukerji/",
+        "https://substack.com/@ayonavamukerji",
+        "https://clarity.fm/ayonavamukerji",
+        "https://www.dailymotion.com/ayonavamukerji",
+        "https://mastodon.social/@AyonavaMukerji"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://AyonavaMukerji.netlify.app/#website",
+      "url": "https://AyonavaMukerji.netlify.app/",
+      "name": "Shupi Mukerji",
+      "publisher": {"@id": "https://AyonavaMukerji.netlify.app/#person"}
+    },
+    {
+      "@type": "AboutPage",
+      "url": "https://AyonavaMukerji.netlify.app/about.html",
+      "name": "About Shupi Mukerji",
+      "mainEntity": {"@id": "https://AyonavaMukerji.netlify.app/#person"}
+    }
+  ]
+}
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+(function(){
+  const _sb=supabase.createClient('https://aowblircaymwuymcmllh.supabase.co','eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFvd2JsaXJjYXltd3V5bWNtbGxoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTIzMzExMjcsImV4cCI6MjA2NzkwNzEyN30.qS7jxVwu83zEYMvxNo7C_2dtVrSZ6wYIFiNtoN69UkQ');
+  const _cid='Ayonava Mukerji';
+  async function loadSBLinks(){
+    const[{data:soc},{data:news}]=await Promise.all([
+      _sb.from('social_media').select('*').eq('client_id',_cid),
+      _sb.from('news_links').select('*').eq('client_id',_cid)
+    ]);
+    const render=(ids,data)=>ids.forEach(id=>{
+      const el=document.getElementById(id);
+      if(!el||!data)return;
+      el.innerHTML='';
+      data.forEach(l=>{
+        const a=document.createElement('a');
+        a.href=l.url;a.target='_blank';a.rel='noopener noreferrer';a.title=l.name;
+        a.innerHTML='<img src="'+l.icon+'" alt="'+l.name+'" style="width:30px;height:30px;border-radius:4px"/>';
+        el.appendChild(a);
+      });
+    });
+    render(['sml-soc-about'],soc);
+    render(['sml-news-about'],news);
+  }
+  document.addEventListener('DOMContentLoaded',loadSBLinks);
+})();
+</script>
+</head>
+<body>
+
+<!-- ══ NAV ═══════════════════════════════════════════════════════ -->
+<nav id="main-nav">
+  <a class="nav-logo" href="/">Ayonava<span> Mukerji</span></a>
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+    <li><a class="active" href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ══ PAGE HERO ═════════════════════════════════════════════════ -->
+<div class="pg-hero">
+  <p class="eyebrow" style="color:rgba(255,255,255,.55)">Learn More</p>
+  <h1>Shupi Mukerji</h1>
+  <p class="pg-sub">Formwork leader. Industry policy contributor. Community champion. Two decades of building what matters in Queensland.</p>
+</div>
+
+<!-- ══ PROFILE CARD ══════════════════════════════════════════════ -->
+<div class="pc-wrap">
+  <div class="pc">
+    <div class="pc-ph"><img src="images/hero.jpg" alt="Shupi Mukerji — Queensland formwork and construction leader"/></div>
+    <div>
+      <div class="pc-nm">Shupi Mukerji</div>
+      <div class="pc-rl">Construction Leader &amp; Formwork Expert</div>
+      <div class="pc-lc">Queensland, Australia</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ ABOUT SECTIONS + SIDEBAR ══════════════════════════════════ -->
+<div class="am-wrap">
+  <div class="am-inner">
+    <div>
+
+      <div class="csec">
+        <p class="cey">Career Foundations</p>
+        <h2>A Trade Career That Built an Industry Leader</h2>
+        <p>Shupi Mukerji's career in construction began the right way: on the tools. He completed his Certificate III in Carpentry through the CFMEU apprenticeship scheme — and became one of only two participants from that programme to go on and establish a construction business of his own. That origin story matters. It is the reason Mukerji has never approached leadership as a management abstraction; for him, it has always been about the work itself, and the people doing it.</p>
+        <p>From that foundation, Shupi advanced through senior roles at some of Queensland's most prominent construction organisations, including Hutchinson Builders, Wideform, and Caelli Formwork. As a former part-owner of a successful formwork business, he gained deep experience in workforce leadership, client management, and large-scale project delivery across the state. These roles sharpened a rare combination: the ability to balance commercial outcomes with practical, ground-level understanding. You can read more about how that experience translated into policy in his <a href="carpenter-to-formwork-code.html">account of shaping Queensland's Formwork Code of Practice</a>.</p>
+      </div>
+
+      <div class="csec">
+        <p class="cey">Industry Leadership</p>
+        <h2>Shaping Policy from the Inside</h2>
+        <p>Shupi Mukerji was directly involved in the consultation and drafting of Queensland's Formwork Code of Practice 2016 — safety standards that now govern formwork operations across the entire state. His involvement was not nominal. Mukerji ensured that the lived experience of people working on formwork sites every day was embedded into the final Code, producing safety outcomes that are both practically sound and enforceable. He was also called before the Commission of Enquiry for the BERT scheme (the construction industry redundancy fund), where he advocated for <a href="https://www.aph.gov.au/Parliamentary_Business/Hansard/Hansard_Display?bid=committees/commsen/0995ea1e-74ee-46c3-ba77-e54a00a622fc/&sid=0003" target="_blank" rel="noopener">industry-led initiatives improving safety and training</a> across the sector.</p>
+        <p>At Omega Structures, Shupi brings that same policy instinct into every project: standards must be real, not just written. His leadership philosophy draws heavily from the principles in The Art of War — centred on discipline, consistency, and continuous improvement. He is known as his own harshest critic, constantly analysing performance and identifying opportunities to sharpen outcomes, both professionally and personally. Those same expectations extend to the teams around him: hard work is recognised, standards are non-negotiable, and every detail matters. You can explore that <a href="discipline-detail-delivery-leadership.html">leadership philosophy in full detail</a> to understand how it shapes day-to-day operations at Omega Structures.</p>
+      </div>
+
+      <div class="csec">
+        <p class="cey">Omega Structures</p>
+        <h2>Building with Purpose at Every Level</h2>
+        <p>Shupi Mukerji leads Omega Structures with an approach that is as much cultural as it is operational. His core belief — be consistent, be the point of difference — sets the tone for everything the business delivers. Attention to the small things is not an aspiration at Omega Structures; it is a baseline. Mukerji understands that what separates good operators from exceptional ones is almost always found in the details: the preparation before a pour, the communication before a problem becomes a delay, the respect shown to everyone on site regardless of their role or rank.</p>
+        <p>Follow <a href="https://www.instagram.com/sm9.amg/" target="_blank" rel="noopener">Shupi's Instagram</a> to see Omega Structures' work and culture documented in real time, or connect on <a href="https://www.facebook.com/shoop.dogg" target="_blank" rel="noopener">his Facebook profile</a> for broader updates on projects and industry news.</p>
+      </div>
+
+      <div class="csec">
+        <p class="cey">Community Investment</p>
+        <h2>Boxing, Sponsorship, and Backing the Next Generation</h2>
+        <p>Away from the construction site, Shupi Mukerji is a committed backer of professional and emerging boxing talent in Queensland. Omega Structures has actively supported athletes including Liam Wilson, Billy Polkinghorn, and Dana Coolwell — covering training costs, development support, and well-being resources. Liam Wilson is set to face Rodex Piala on the Tszyu vs Zerafa card; Billy Polkinghorn will compete against Jomar Paliwen on the same event. Dana Coolwell was supported for his bout against Bruce Carrington on the Mike Tyson vs Jake Paul card — one of the most widely watched boxing broadcasts in recent history.</p>
+        <p>Beyond elite athlete sponsorship, Mukerji has maintained a long-standing commitment to the Deception Bay Boxing Club, and more recently All Star Boxing Club — community programmes that give young people in Queensland structured pathways through sport, building discipline, responsibility, and opportunity from the ground up. Read more about <a href="omega-structures-boxing-sponsorship.html">why Omega Structures invests in boxing</a> and what community sport sponsorship actually means in practice.</p>
+      </div>
+
+      <div class="csec">
+        <p class="cey">The Person</p>
+        <h2>Driven, Disciplined, and Always Learning</h2>
+        <p>Shupi Mukerji carries the same values in every context — on site, in a boardroom, and in the community. Respect is non-negotiable for him; whether he's engaging with a labourer or a company director, the standard of professionalism and dignity doesn't change. That consistency is not a performance — it's structural. It's what allows teams around Mukerji to trust what they'll get from him, and what keeps clients returning.</p>
+        <p>Outside of work, Shupi is a father, an adventurer, and a student of discipline in many forms. His ongoing engagement with boxing — both as a sport and as a vehicle for community development — reflects his belief that the qualities that make someone exceptional on a construction site (focus, resilience, the willingness to absorb difficulty and keep going) are transferable far beyond any single industry.</p>
+      </div>
+
+    </div>
+
+    <aside class="sidebar-facts">
+      <div class="sb-box">
+        <div class="sb-title">Quick Facts</div>
+        <div class="fr"><span class="fl">Name</span><span class="fv">Shupi Mukerji</span></div>
+        <div class="fr"><span class="fl">Location</span><span class="fv">Queensland, Australia</span></div>
+        <div class="fr"><span class="fl">Industry</span><span class="fv">Formwork &amp; Construction</span></div>
+        <div class="fr"><span class="fl">Company</span><span class="fv">Omega Structures</span></div>
+        <div class="fr"><span class="fl">Experience</span><span class="fv">20+ Years</span></div>
+        <div class="fr"><span class="fl">Qualification</span><span class="fv">Cert III Carpentry (CFMEU)</span></div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<!-- ══ SOCIAL + PRESS ACCORDION ══════════════════════════════════ -->
+<div class="acc-section" style="background:var(--off)">
+  <div class="acc-wrap">
+    <button class="acc-btn" onclick="tog(this,'s-about')">Follow Shupi Mukerji on Social Media <span class="chevron">&#8964;</span></button>
+    <div class="acc-body" id="s-about"><div id="sml-soc-about" class="social-media-list"></div></div>
+    <button class="acc-btn" onclick="tog(this,'n-about')">Shupi Mukerji in the Press <span class="chevron">&#8964;</span></button>
+    <div class="acc-body" id="n-about"><div id="sml-news-about" class="social-media-list"></div></div>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 Shupi Mukerji. All rights reserved. &nbsp;|&nbsp; <a href="privacy.html">Privacy Policy</a></p>
+</footer>
+
+<script>
+function tog(btn,id){
+  const c=document.getElementById(id),open=c.classList.contains('open');
+  document.querySelectorAll('.acc-body').forEach(e=>e.classList.remove('open'));
+  document.querySelectorAll('.acc-btn').forEach(e=>e.classList.remove('open'));
+  if(!open){c.classList.add('open');btn.classList.add('open');}
+}
+</script>
+</body>
+</html>
