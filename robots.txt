@@ -1,0 +1,5 @@
+User-agent: *
+allow: /
+Disallow: /privacy.html
+
+Sitemap: https://AyonavaMukerji.netlify.app/sitemap.xml
